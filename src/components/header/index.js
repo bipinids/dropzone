@@ -1,5 +1,3 @@
-import { Row } from "react-bootstrap"
-
-export default ()=>{
-    return(<div className="header"></div>)
+export default function Header() {
+  return <div className="header"></div>;
 }

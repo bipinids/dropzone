@@ -6,9 +6,9 @@ import {
   validateFiles,
   setNotification,
 } from "../../globals/helpers/utility";
-export default (props) => {
+export default function Dropzone(props) {
   const fileEl = useRef(null);
-  const { state, setState } = props;
+  const { setState } = props;
 
   //handle file upload
   const handleUpload = (files) => {
@@ -45,7 +45,7 @@ export default (props) => {
             <div className="upload_icon text-center">
               <p>Drop your files here or click to browse</p>
               <p>
-                <img src={upload_icon} />
+                <img alt="upload icon" src={upload_icon} />
               </p>
               <p className="supp_exts fst-italic">
                 Valid extension:{" "}
@@ -70,4 +70,4 @@ export default (props) => {
       </Row>
     </Container>
   );
-};
+}

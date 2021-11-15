@@ -1,9 +1,3 @@
-import { Row } from "react-bootstrap"
-
-export default ()=> {
-    
-    return (
-        <div className="footer"></div>
-    )
-
+export default function footer() {
+  return <div className="footer"></div>;
 }

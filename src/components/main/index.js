@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 import Dropzone from "../dropzone";
 import Custodian from "../custodian";
 
-export default (props) => {
+export default function Main(props) {
   const state = props.state;
   const handleState = (stateData) => {
     props.handleState(stateData);
@@ -22,4 +22,4 @@ export default (props) => {
       </Card>
     </>
   );
-};
+}
