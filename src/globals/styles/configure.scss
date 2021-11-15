@@ -1,0 +1,14 @@
+/* stylesheet.scss */
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+/* Your customizations here */
+$base-color: #1e1e1e;
+$tiny-font: 12px;
+$theme-colors: (
+  "primary": $pink-500,
+);
+$primary: $pink-500;
+@import "bootstrap";
